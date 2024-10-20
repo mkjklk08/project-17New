@@ -1,0 +1,138 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(215, 212, 227);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container .container-1 {
+    margin-right: 20px;
+    border: 1px ;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(140, 121, 148);
+}
+
+.container .photo {
+    width: 350px;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.container .body {
+    padding: 0px 30px 20px 30px;
+}
+
+.container .info .header {
+    font-family: Georgia;
+    font-size: 30px;
+    color: rgb(67, 56, 98);
+}
+
+.container .info .text {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    color: rgb(93, 96, 111);
+}
+
+.container .body .profile {
+    display: flex;
+    flex-direction: row;
+}
+
+.container .body .profile img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.container .body .profile .name {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .body .profile .name h4 {
+    margin-bottom: 0px;
+    margin-top: 23px;
+    font-size: 15px;
+    color: rgb(67, 56, 98);
+    font-family: Georgia;
+}
+
+.container .body .profile .name p {
+    margin: 0px;
+    color: rgb(93, 96, 111);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .container-1 .body .profile .date {
+    color: rgb(93, 96, 111);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-self: end;
+    margin-left: 113px;
+}
+
+.container .container-2 {
+    border: 1px ;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(140, 121, 148);
+}
+
+.container .container-2 .body .profile .date {
+    color: rgb(93, 96, 111);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-self: end;
+    margin-left: 135px;
+}
+
+.container .container-3 {
+    border: 1px;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(140, 121, 148);
+}
+
+.container .body .profile .date {
+    color: rgb(93, 96, 111);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-self: end;
+    margin-left: 85px;
+}
+
+hr {
+    border: 1px solid rgb(212, 212, 212);
+}
+
+.container .container-2 .new {
+    position: absolute;
+    border: 1px solid rgb(255, 79, 158);
+    background-color: rgb(255, 79, 158);
+    color: white;
+    font-family: sans-serif;
+    padding: 3px;
+    font-size: 15px;
+    border-radius: 7px;
+    box-shadow: 0px 1px 2px rgb(255, 79, 158);
+    top: 75px;
+    left: 600px;
+}
